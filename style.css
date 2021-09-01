@@ -1,0 +1,82 @@
+body{
+    background-color:black;
+}
+.links{
+    background-color:black
+    width: 100%;
+     font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 35px;
+    text-align:center;
+    
+}
+
+.magin-top{
+    margin-top: 30px;
+    
+}
+.link{
+    background-color: black;
+    margin: 30px;
+    display:inline;
+    
+}
+.column{
+    
+    width: 33.33%;
+    
+
+}
+
+.row{
+    
+    display: flex;
+}
+
+div{
+max-width: 800px;
+margin: auto;
+} 
+
+.table{
+    width: 100%;
+    text-align: left;
+    color: goldenrod;
+    font-size: 20px;
+    
+}
+
+a:link{
+color: goldenrod;
+}
+
+a:visited{
+color:goldenrod;
+}
+
+.marquee{
+    color: goldenrod;   
+}
+
+.w3-content{
+    position: relative;
+
+}
+
+.w3-section{
+display: flex;
+    justify-content: space-between;
+}
+.w3-button-prev{
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    
+}
+
+.w3-button-next{
+
+position: absolute;
+    right: -20px;
+    top: 50%;
+}
