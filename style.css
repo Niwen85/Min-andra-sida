@@ -1,13 +1,22 @@
 body{
     background-color:black;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 .links{
-    background-color:black
+    background-color:black;
     width: 100%;
      font-size: xx-large;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 35px;
     text-align:center;
+    padding-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     
 }
 
@@ -43,7 +52,8 @@ margin: auto;
     text-align: left;
     color: goldenrod;
     font-size: 20px;
-    
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 a:link{
@@ -55,7 +65,9 @@ color:goldenrod;
 }
 
 .marquee{
-    color: goldenrod;   
+    color: goldenrod; 
+    margin-top: 15px;  
+    margin-bottom: 15px;
 }
 
 .w3-content{
@@ -66,17 +78,33 @@ color:goldenrod;
 .w3-section{
 display: flex;
     justify-content: space-between;
+
+
 }
 .w3-button-prev{
     position: absolute;
     top: 50%;
-    left: -20px;
+    left: -43px;
     
 }
 
 .w3-button-next{
 
 position: absolute;
-    right: -20px;
+    right: -43px;
     top: 50%;
+}
+
+.form{
+background-color:white;
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: xx-large;
+border: 2px;
+border-color: black;
+}
+
+
+table{
+    width: 100%;
 }
